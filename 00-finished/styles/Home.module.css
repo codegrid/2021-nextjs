@@ -1,0 +1,12 @@
+.greeting {
+  display: flex;
+  align-items: center;
+}
+
+.greeting .avatar {
+  border-radius: 9999px;
+}
+
+.greeting .message {
+  margin-left: 16px;
+}
