@@ -3,6 +3,7 @@ import matter from "gray-matter";
 import path from "path";
 import Head from "next/head";
 import ReactMarkdown from "react-markdown";
+import breaks from 'remark-breaks';
 import { fileNameToSlug, PostsDir, slugToFileName } from "../../lib/blog";
 import styles from "../../styles/Blog.module.css";
 
@@ -19,7 +20,7 @@ const BlogPage = ({ post }) => {
             Posted: <time dateTime={post.date}>{post.date}</time>
           </span>
         </header>
-        <ReactMarkdown>{post.body}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[breaks]}>{post.body}</ReactMarkdown>
       </article>
     </>
   );

@@ -17,7 +17,7 @@ const Home = () => {
             height={48}
           />
         </span>
-        <span className={styles.message}>Hello, I'm ykhs!</span>
+        <span className={styles.message}>こんにちはこんにちは！</span>
       </div>
     </>
   );
