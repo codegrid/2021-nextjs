@@ -5,10 +5,8 @@ import styles from "../styles/App.module.css";
 const MyApp = ({ Component, pageProps }) => {
   return (
     <div className={styles.wrapper}>
-
       {/*Container*/}
       <div className={styles.container}>
-
         {/*Header*/}
         <header className={styles.header}>
           <h1>My Website</h1>
@@ -38,7 +36,6 @@ const MyApp = ({ Component, pageProps }) => {
           Powered by <a href="https://nextjs.org/">Next.js</a>
         </div>
       </footer>
-
     </div>
   );
 };

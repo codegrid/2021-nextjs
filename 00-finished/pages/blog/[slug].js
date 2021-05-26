@@ -3,7 +3,7 @@ import matter from "gray-matter";
 import path from "path";
 import Head from "next/head";
 import ReactMarkdown from "react-markdown";
-import breaks from 'remark-breaks';
+import breaks from "remark-breaks";
 import { fileNameToSlug, PostsDir, slugToFileName } from "../../lib/blog";
 import styles from "../../styles/Blog.module.css";
 
