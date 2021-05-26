@@ -22,6 +22,6 @@
   },
   "devDependencies": {
     "faker": "5.5.3",
-    "prettier": "2.2.1"
+    "prettier": "2.3.0"
   }
 }
