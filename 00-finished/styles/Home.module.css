@@ -3,8 +3,8 @@
   align-items: center;
 }
 
-.greeting .avatar {
-  border-radius: 9999px;
+.greeting .avatar > div {
+  border-radius: 50%;
 }
 
 .greeting .message {

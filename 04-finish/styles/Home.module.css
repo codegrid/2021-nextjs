@@ -6,7 +6,7 @@
 /* next/imageが自動的にdivによるラッパーを生成するため
    それを考慮したセレクタが必要 */
 .greeting .avatar > div {
-  border-radius: 9999px;
+  border-radius: 50%;
 }
 
 .greeting .message {
