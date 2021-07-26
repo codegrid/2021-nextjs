@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import Head from "next/head";
 import ReactMarkdown from "react-markdown";
 import breaks from "remark-breaks";
-import * as styles from "../../styles/Blog.module.css";
+import styles from "../../styles/Blog.module.css";
 
 const BlogPage = ({ post }) => {
   return (
